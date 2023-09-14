@@ -1,0 +1,58 @@
+Students Table:
+---------------
+
+* student_id (Primary Key)
+* first_name
+* last_name
+* email
+* phone_number
+* date_of_birth
+* address
+
+Mentor Table:
+---------------
+
+* Mentor_id(Primary key)
+* first_name
+* last_name
+* email
+* phone_number
+
+course Table:
+----------------
+
+* course_id(Primary key)
+* course_name
+* description
+* Mentor_id
+* start_date
+* end_date
+
+Enrollement Table:
+-------------------
+
+* Enrollement_id(Primary key)
+* student_id
+* course_id
+* Enrollement_date
+
+Task Table:
+-----------
+
+* Task_id(Primary key)
+* student_id
+* course_name
+* title
+* description
+* date_of_submission
+* status
+
+payment Table:
+---------------
+
+* payment_id (Primary key)
+* payment_date
+* payment_mode
+* payment_amount
+* student_id
+* course_id
